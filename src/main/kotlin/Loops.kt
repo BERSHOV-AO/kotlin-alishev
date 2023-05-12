@@ -33,4 +33,8 @@ fun main(){
     for(i in 10 downTo 1){
         println(i)
     }
+
+    for(i in 0..100 step 10){
+        println(i)
+    }
 }
