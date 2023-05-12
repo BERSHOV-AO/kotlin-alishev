@@ -12,9 +12,15 @@ fun main(args: Array<String>){
     var test2 = "Hello"
     test2 = "Goodbye"
 
+
+    val test3 = 3
+    var test4 = 4
     println(test2)
 
     println("value of test2 $test1")
 
     println("Sum is ${2 + 2}")
+    println("Sum is ${test3 + test4}")
+
+
 }
